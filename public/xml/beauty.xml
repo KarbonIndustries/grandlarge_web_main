@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed>
+	<item>
+		<video url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/227473/format/o/h/61e8cb122860a3211fba8f2e2ab4b325/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a58c0566f1bc1c"/>
+		<poster url="http://gl.karbon.dnsalias.com/img/thumbs/video_1_lrg.jpg"/>
+		<thumbnail url="http://gl.karbon.dnsalias.com/img/thumbs/video_1_sml.jpg"/>
+		<director value="Beauty Director 1"/>
+		<client value="Client 1"/>
+		<title value="Video 1"/>
+	</item>
+	<item>
+		<video url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/download/client/grandlarge/package/library/id/526151/format/o/h/bb8473af58be8091dd372ec6a7f78822/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a38905699d11af"/>
+		<poster url="http://gl.karbon.dnsalias.com/img/thumbs/video_2_lrg.jpg"/>
+		<thumbnail url="http://gl.karbon.dnsalias.com/img/thumbs/video_2_sml.jpg"/>
+		<director value="Beauty Director 2"/>
+		<client value="Client 2"/>
+		<title value="Video 2"/>
+	</item>
+	<item>
+		<video url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/download/client/grandlarge/package/library/id/486205/format/o/h/31eb45e0c5558e880a3538986fb15e7a/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a38905699d11af"/>
+		<poster url="http://gl.karbon.dnsalias.com/img/thumbs/video_3_lrg.jpg"/>
+		<thumbnail url="http://gl.karbon.dnsalias.com/img/thumbs/video_3_sml.jpg"/>
+		<director value="Beauty Director 3"/>
+		<client value="Client 3"/>
+		<title value="Video 3"/>
+	</item>
+	<item>
+		<video url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/download/client/grandlarge/package/library/id/374781/format/o/h/8e26a2b5fccb143f6469d76341d5a26d/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a38905699d11af"/>
+		<poster url="http://gl.karbon.dnsalias.com/img/thumbs/video_4_lrg.jpg"/>
+		<thumbnail url="http://gl.karbon.dnsalias.com/img/thumbs/video_4_sml.jpg"/>
+		<director value="Beauty Director 4"/>
+		<client value="Client 4"/>
+		<title value="Video 4"/>
+	</item>
+	<item>
+		<video url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/download/client/grandlarge/package/library/id/572966/format/o/h/dfe221c26b82cf7f7e98bc7910266c5d/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a38905699d11af"/>
+		<poster url="http://gl.karbon.dnsalias.com/img/thumbs/video_5_lrg.jpg"/>
+		<thumbnail url="http://gl.karbon.dnsalias.com/img/thumbs/video_5_sml.jpg"/>
+		<director value="Beauty Director 5"/>
+		<client value="Client 5"/>
+		<title value="Video 5"/>
+	</item>
+	<item>
+		<video url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/download/client/grandlarge/package/library/id/133395/format/o/h/fdb86100575a3377114e1c30eca2a8db/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a38905699d11af"/>
+		<poster url="http://gl.karbon.dnsalias.com/img/thumbs/video_6_lrg.jpg"/>
+		<thumbnail url="http://gl.karbon.dnsalias.com/img/thumbs/video_6_sml.jpg"/>
+		<director value="Beauty Director 6"/>
+		<client value="Client 6"/>
+		<title value="Video 6"/>
+	</item>
+	<item>
+		<video url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/download/client/grandlarge/package/library/id/580613/format/o/h/5bec53870ccc260b88e3f1904317375b/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a38905699d11af"/>
+		<poster url="http://gl.karbon.dnsalias.com/img/thumbs/video_7_lrg.jpg"/>
+		<thumbnail url="http://gl.karbon.dnsalias.com/img/thumbs/video_7_sml.jpg"/>
+		<director value="Beauty Director 7"/>
+		<client value="Client 7"/>
+		<title value="Video 7"/>
+	</item>
+	<item>
+		<video url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/download/client/grandlarge/package/library/id/446667/format/o/h/40cded008fc366148a77d015020e7307/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a3880962abd38d"/>
+		<poster url="http://gl.karbon.dnsalias.com/img/thumbs/video_8_lrg.jpg"/>
+		<thumbnail url="http://gl.karbon.dnsalias.com/img/thumbs/video_8_sml.jpg"/>
+		<director value="Beauty Director 8"/>
+		<client value="Client 8"/>
+		<title value="Video 8"/>
+	</item>
+</feed>

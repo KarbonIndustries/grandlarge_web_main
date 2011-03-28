@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title><![CDATA[Grand Large Inc. : Grand Large Showreel]]></title>
+    <link>http://grandlarge.wiredrive.com/l/p/?presentation=b0cdb930ef88d72c9e5e5f007c53c420</link>
+    <description><![CDATA[Grand Large Showreel]]></description>
+    <pubDate>Tue, 14 Dec 2010 17:41:32 +0000</pubDate>
+    <generator>Wiredrive RSS Feed</generator>
+
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <ttl>30</ttl>
+	<item>
+		<title><![CDATA[Grand Large Intro]]></title>
+		<link>http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/306480/format/o/h/1578f4be4c27927cdf3f885b9a3eb6bf/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca</link>
+		<guid>http://grandlarge.wiredrive.com/l/p/?presentation=b0cdb930ef88d72c9e5e5f007c53c420#306480</guid>
+		<description><![CDATA[gl_logo.mp4]]></description>
+		<pubDate>Tue, 14 Dec 2010 17:41:33 +0000</pubDate>
+		<enclosure url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/306480/format/o/h/1578f4be4c27927cdf3f885b9a3eb6bf/gl_logo.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" type="video/quicktime" length="125067"/>
+		<media:content url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/306480/format/o/h/1578f4be4c27927cdf3f885b9a3eb6bf/gl_logo.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" fileSize="125067" type="video/quicktime" height="432" width="768"/>
+		<media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/306480/format/t/size/lg/h/b4e40d81e6d8663db35549279701ee41/gl_logo.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="360" width="640"/>
+		<media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/306480/format/t/size/sm/h/b4e40d81e6d8663db35549279701ee41/gl_logo.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="101" width="180"/>
+		<media:credit role="intro:" scheme="urn:feeds-wiredrive-com:credits">
+			<![CDATA[Director Intros]]>
+		</media:credit>
+	</item>
+    <item>
+		<title><![CDATA[LOUD - Dir. Cut]]></title>
+		<link>http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/526151/format/o/h/1aea289b752a878307383838c3821361/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca</link>
+		<guid>http://grandlarge.wiredrive.com/l/p/?presentation=b0cdb930ef88d72c9e5e5f007c53c420#526151</guid>
+		<description><![CDATA[fc_loud_63_dir_wd.mp4]]></description>
+		<pubDate>Tue, 14 Dec 2010 17:41:34 +0000</pubDate>
+		<enclosure url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/526151/format/o/h/1aea289b752a878307383838c3821361/fc_loud_63_dir_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" type="video/quicktime" length="13499957"/>
+		<media:content url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/526151/format/o/h/1aea289b752a878307383838c3821361/fc_loud_63_dir_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" fileSize="13499957" type="video/quicktime" height="432" width="768"/>
+		<media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/526151/format/t/size/lg/h/66b3313e734c3c26acb23f129c981790/fc_loud_63_dir_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="360" width="640"/>
+		<media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/526151/format/t/size/sm/h/66b3313e734c3c26acb23f129c981790/fc_loud_63_dir_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="101" width="180"/>
+		<media:credit role="client:" scheme="urn:feeds-wiredrive-com:credits">
+			<![CDATA[Esteé Lauder/Tommy Hilfiger]]>
+		</media:credit>
+		<media:credit role="director:" scheme="urn:feeds-wiredrive-com:credits">
+			<![CDATA[Francesco Carrozzini]]>
+		</media:credit></item>
+    <item>
+		<title><![CDATA[Call You Back (:45) - Neighbor Version]]></title>
+		<link>http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/486205/format/o/h/67f3486e2f7d3ad4890077c36c0bead0/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca</link>
+		<guid>http://grandlarge.wiredrive.com/l/p/?presentation=b0cdb930ef88d72c9e5e5f007c53c420#486205</guid>
+		<description><![CDATA[jpj_cba_neighbor.mp4]]></description>
+		<pubDate>Tue, 14 Dec 2010 17:41:35 +0000</pubDate>
+		<enclosure url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/486205/format/o/h/67f3486e2f7d3ad4890077c36c0bead0/jpj_cba_neighbor.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" type="video/quicktime" length="9191249"/>
+		<media:content url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/486205/format/o/h/67f3486e2f7d3ad4890077c36c0bead0/jpj_cba_neighbor.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" fileSize="9191249" type="video/quicktime" height="432" width="768"/>
+		<media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/486205/format/t/size/lg/h/c327d6e1ab990f676f311b9cca81f7d6/jpj_cba_neighbor.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="360" width="640"/>
+		<media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/486205/format/t/size/sm/h/c327d6e1ab990f676f311b9cca81f7d6/jpj_cba_neighbor.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="101" width="180"/>
+		<media:credit role="agency:" scheme="urn:feeds-wiredrive-com:credits">
+			<![CDATA[Goodby, Silverstein & Partners]]>
+		</media:credit>
+		<media:credit role="client:" scheme="urn:feeds-wiredrive-com:credits">
+			<![CDATA[Commonwealth Bank of Australia]]>
+		</media:credit>
+		<media:credit role="director:" scheme="urn:feeds-wiredrive-com:credits">
+			<![CDATA[Jean Pierre Jeunet]]>
+		</media:credit></item>
+    <item>
+      <title><![CDATA["It&#39;s Worth It"]]></title>
+      <link>http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/374781/format/o/h/551f950e691df1e033d879849dd199cd/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca</link>
+      <guid>http://grandlarge.wiredrive.com/l/p/?presentation=b0cdb930ef88d72c9e5e5f007c53c420#374781</guid>
+      <description><![CDATA[gt_kapiti_wd.mp4]]></description>
+      <pubDate>Tue, 14 Dec 2010 17:41:36 +0000</pubDate>
+      <enclosure url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/374781/format/o/h/551f950e691df1e033d879849dd199cd/gt_kapiti_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" type="video/quicktime" length="10355115"/>
+    <media:content url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/374781/format/o/h/551f950e691df1e033d879849dd199cd/gt_kapiti_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" fileSize="10355115" type="video/quicktime" height="432" width="768"/><media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/374781/format/t/size/lg/h/6fc749749cfe36b676a49f4ea38fc91a/gt_kapiti_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="108" width="192"/><media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/374781/format/t/size/sm/h/6fc749749cfe36b676a49f4ea38fc91a/gt_kapiti_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="101" width="180"/><media:credit role="client:" scheme="urn:feeds-wiredrive-com:credits"><![CDATA[Kapiti]]></media:credit><media:credit role="director:" scheme="urn:feeds-wiredrive-com:credits"><![CDATA[Gaysorn Thavat]]></media:credit></item>
+    <item>
+      <title><![CDATA[Wonderland - Director&#39;s Ver.]]></title>
+      <link>http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/572966/format/o/h/8511d30ccebd52624776b9663284710b/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca</link>
+      <guid>http://grandlarge.wiredrive.com/l/p/?presentation=b0cdb930ef88d72c9e5e5f007c53c420#572966</guid>
+      <description><![CDATA[gt_wonderland_wd.mp4]]></description>
+      <pubDate>Tue, 14 Dec 2010 17:41:37 +0000</pubDate>
+      <enclosure url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/572966/format/o/h/8511d30ccebd52624776b9663284710b/gt_wonderland_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" type="video/quicktime" length="4618860"/>
+    <media:content url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/572966/format/o/h/8511d30ccebd52624776b9663284710b/gt_wonderland_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" fileSize="4618860" type="video/quicktime" height="432" width="768"/><media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/572966/format/t/size/lg/h/e35d578c4a2a178fcce4987617f03293/gt_wonderland_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="360" width="640"/><media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/572966/format/t/size/sm/h/e35d578c4a2a178fcce4987617f03293/gt_wonderland_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="101" width="180"/><media:credit role="agency:" scheme="urn:feeds-wiredrive-com:credits"><![CDATA[Leo Burnett USA]]></media:credit><media:credit role="client:" scheme="urn:feeds-wiredrive-com:credits"><![CDATA[Kellogg North America Company]]></media:credit><media:credit role="director:" scheme="urn:feeds-wiredrive-com:credits"><![CDATA[Tracey Rowe]]></media:credit></item>
+    <item>
+      <title><![CDATA[The Temptation of Eve]]></title>
+      <link>http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/133395/format/o/h/795aab81822ea04f6ce213f5a35ea717/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca</link>
+      <guid>http://grandlarge.wiredrive.com/l/p/?presentation=b0cdb930ef88d72c9e5e5f007c53c420#133395</guid>
+      <description><![CDATA[tr_mars_delight_wd.mp4]]></description>
+      <pubDate>Tue, 14 Dec 2010 17:41:38 +0000</pubDate>
+      <enclosure url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/133395/format/o/h/795aab81822ea04f6ce213f5a35ea717/tr_mars_delight_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" type="video/quicktime" length="4956445"/>
+    <media:content url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/133395/format/o/h/795aab81822ea04f6ce213f5a35ea717/tr_mars_delight_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" fileSize="4956445" type="video/quicktime" height="432" width="768"/><media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/133395/format/t/size/lg/h/600eea0dbfbf9ce86fb4933b2292d3be/tr_mars_delight_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="360" width="640"/><media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/133395/format/t/size/sm/h/600eea0dbfbf9ce86fb4933b2292d3be/tr_mars_delight_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="101" width="180"/><media:credit role="agency:" scheme="urn:feeds-wiredrive-com:credits"><![CDATA[BBDO - Paris]]></media:credit><media:credit role="client:" scheme="urn:feeds-wiredrive-com:credits"><![CDATA[Mars]]></media:credit><media:credit role="director:" scheme="urn:feeds-wiredrive-com:credits"><![CDATA[Tracey Rowe]]></media:credit></item>
+    <item>
+      <title><![CDATA[Cricket]]></title>
+      <link>http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/580613/format/o/h/63e568116d0dc8f65186e82129fd2dab/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca</link>
+      <guid>http://grandlarge.wiredrive.com/l/p/?presentation=b0cdb930ef88d72c9e5e5f007c53c420#580613</guid>
+      <description><![CDATA[cba_cricket_wd.mp4]]></description>
+      <pubDate>Tue, 14 Dec 2010 17:41:39 +0000</pubDate>
+      <enclosure url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/580613/format/o/h/63e568116d0dc8f65186e82129fd2dab/cba_cricket_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" type="video/quicktime" length="8074128"/>
+    <media:content url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/580613/format/o/h/63e568116d0dc8f65186e82129fd2dab/cba_cricket_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" fileSize="8074128" type="video/quicktime" height="432" width="768"/><media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/580613/format/t/size/lg/h/492a9005cd45134619e2502a68cd55d6/cba_cricket_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="360" width="640"/><media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/580613/format/t/size/sm/h/492a9005cd45134619e2502a68cd55d6/cba_cricket_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="101" width="180"/><media:credit role="agency:" scheme="urn:feeds-wiredrive-com:credits"><![CDATA[Goodby, Silverstein & Partners]]></media:credit><media:credit role="client:" scheme="urn:feeds-wiredrive-com:credits"><![CDATA[Commonwealth Bank of Australia]]></media:credit><media:credit role="director:" scheme="urn:feeds-wiredrive-com:credits"><![CDATA[Jean Pierre Jeunet]]></media:credit></item>
+    <item>
+      <title><![CDATA[Magical Bell]]></title>
+      <link>http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/446667/format/o/h/ecfa0991aa238e762c33c4ef6cc4bc2e/?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca</link>
+      <guid>http://grandlarge.wiredrive.com/l/p/?presentation=b0cdb930ef88d72c9e5e5f007c53c420#446667</guid>
+      <description><![CDATA[gt_schwinn_wd.mp4]]></description>
+      <pubDate>Tue, 14 Dec 2010 17:41:40 +0000</pubDate>
+      <enclosure url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/446667/format/o/h/ecfa0991aa238e762c33c4ef6cc4bc2e/gt_schwinn_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" type="video/quicktime" length="5282266"/>
+    <media:content url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/446667/format/o/h/ecfa0991aa238e762c33c4ef6cc4bc2e/gt_schwinn_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.mp4" fileSize="5282266" type="video/quicktime" height="432" width="768"/><media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/446667/format/t/size/lg/h/b10905503420498ca9181e0df8b574a2/gt_schwinn_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="360" width="640"/><media:thumbnail url="http://wpc.0155.edgecastcdn.net/800155/la-production.wiredrive.com//cdn/asset/view/client/grandlarge/package/library/id/446667/format/t/size/sm/h/b10905503420498ca9181e0df8b574a2/gt_schwinn_wd.mp4?7a6013aef28682d61703dff726d21b126928705a855f255f732a3362a28b0f607f1fca.jpg" height="101" width="180"/><media:credit role="agency:" scheme="urn:feeds-wiredrive-com:credits"><![CDATA[Cossette Communication]]></media:credit><media:credit role="client:" scheme="urn:feeds-wiredrive-com:credits"><![CDATA[Schwinn]]></media:credit><media:credit role="director:" scheme="urn:feeds-wiredrive-com:credits"><![CDATA[Gaysorn Thavat]]></media:credit></item>
+  </channel>
+</rss>
