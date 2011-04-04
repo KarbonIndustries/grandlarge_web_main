@@ -10,7 +10,6 @@ if(isset($_GET['id']))
 {
 	$dir = getDirById(1);
 }
-$dir = isset($_GET['id']) ? getDirById($_GET['id']) : getDirById(1);
 $script1 = '<script type="text/javascript">' . "\n";
 $script1 .= 'var feed = "' . $dir['feedURL'] . '";' . "\n";
 #$script1 .= 'window.onload = initShowreel;' . "\n";
