@@ -4,7 +4,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.1.37)
 # Database: grandlargeinc_com_teset_site_aplus_net
-# Generation Time: 2011-03-14 16:20:33 -0400
+# Generation Time: 2011-06-21 01:21:35 -0400
 # ************************************************************
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -46,7 +46,7 @@ DROP TABLE IF EXISTS `contacts`;
 
 CREATE TABLE `contacts` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `officeCategoryID` smallint(3) unsigned NOT NULL DEFAULT '0',
+  `officeCategoryID` smallint(3) unsigned NOT NULL,
   `officeLocale` varchar(40) NOT NULL DEFAULT '',
   `companyName` varchar(40) NOT NULL DEFAULT '',
   `address1` varchar(40) NOT NULL DEFAULT '',
@@ -54,8 +54,8 @@ CREATE TABLE `contacts` (
   `address3` varchar(40) NOT NULL DEFAULT '',
   `city` varchar(40) NOT NULL DEFAULT '',
   `stateID` tinyint(2) unsigned NOT NULL DEFAULT '51',
-  `country` varchar(40) NOT NULL DEFAULT '',
   `zip` varchar(10) NOT NULL DEFAULT '',
+  `country` varchar(40) NOT NULL DEFAULT '',
   `contact1FirstName` varchar(40) NOT NULL DEFAULT '',
   `contact1LastName` varchar(40) NOT NULL DEFAULT '',
   `contact2FirstName` varchar(40) NOT NULL DEFAULT '',
@@ -70,18 +70,22 @@ CREATE TABLE `contacts` (
   KEY `country` (`country`),
   KEY `companyName` (`companyName`),
   KEY `officeLocale` (`officeLocale`),
-  KEY `officeCategoryID` (`officeCategoryID`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+  KEY `officeCategoryID` (`officeCategoryID`),
+  CONSTRAINT `contacts_ibfk_1` FOREIGN KEY (`stateID`) REFERENCES `states` (`id`) ON UPDATE CASCADE,
+  CONSTRAINT `contacts_ibfk_3` FOREIGN KEY (`officeCategoryID`) REFERENCES `officecategories` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
 
 LOCK TABLES `contacts` WRITE;
 /*!40000 ALTER TABLE `contacts` DISABLE KEYS */;
-INSERT INTO `contacts` (`id`,`officeCategoryID`,`officeLocale`,`companyName`,`address1`,`address2`,`address3`,`city`,`stateID`,`country`,`zip`,`contact1FirstName`,`contact1LastName`,`contact2FirstName`,`contact2LastName`,`contact3FirstName`,`contact3LastName`,`phone`,`email`,`websiteURL`)
+INSERT INTO `contacts` (`id`,`officeCategoryID`,`officeLocale`,`companyName`,`address1`,`address2`,`address3`,`city`,`stateID`,`zip`,`country`,`contact1FirstName`,`contact1LastName`,`contact2FirstName`,`contact2LastName`,`contact3FirstName`,`contact3LastName`,`phone`,`email`,`websiteURL`)
 VALUES
-	(1,1,'New York','Grand Large Inc.','54 Mercer Street','','','New York',32,'USA','10013','Steven','Horton','','','','','2129888390','steven@grandlargeinc.com','www.grandlargeinc.com'),
-	(2,1,'Paris','Grand Large Inc.','22 Rue de Navarin','','','Paris',51,'France','75009','Steven','Horton','','','','','33143060330','info@grandlargeinc.com','www.grandlargeinc.com'),
-	(3,2,'East Coast','FM Artist Management','30 Irving Place','6th Floor','','New York',32,'USA','10013','Carl','Forsberg','Marianne','McCarley','','','2125812200','carl@fmartist.com','www.forsbergmccarley.com'),
-	(4,2,'Midwest','Hilly Reps','680 North Lake Shore Drive','Suite 320','','Chicago',13,'USA','60611','Hillary','Herbst','Laurel','Dobose','','','3129441100','hillary@hillyreps.com','www.hillyreps.com'),
-	(5,2,'West Coast','Two Tricky Pony, Inc.','21816 Grovepark Drive','','','Santa Clarita',5,'USA','91350','Jonathan','Miller','','','','','2123008962','jmiller@2trickypony.com','www.2trickpony.com');
+	(1,1,'New York','Grand Large Inc.','54 Mercer Street','','','New York',32,'10013','USA','Steven','Horton','','','','','2129888390','steven@grandlargeinc.com','www.grandlargeinc.com'),
+	(2,1,'Paris','Grand Large Inc.','22 Rue de Navarin','','','Paris',51,'75009','France','Steven','Horton','','','','','33143060330','info@grandlargeinc.com','www.grandlargeinc.com'),
+	(3,2,'East Coast','Fm Artist Management','30 Irving Place','6th Floor','','New York',32,'10013','USA','Carl','Forsberg','Marianne','McCarley','','','2125812200','carl@fmartist.com','www.forsbergmccarley.com'),
+	(4,2,'Midwest','Hilly Reps','680 North Lake Shore Drive','Suite 320','','Chicago',13,'60611','USA','Hillary','Herbst','Laurel','Dobose','','','3129441100','hillary@hillyreps.com','www.hillyreps.com'),
+	(5,2,'West Coast','Two Tricky Pony, Inc.','21816 Grovepark Drive','','','Santa Clarita',5,'91350','USA','Jonathan','Miller','','','','','2123008962','millerjonathan@mac.com','www.2trickpony.com'),
+	(17,2,'Germany','DareDevil Software Corp','','','','',51,'','','Shammel','Lee','','','','','2125558789','us@daredevilsoftware.com','daredevilsoft.com'),
+	(20,2,'Sadfdf','Asdfadf','','','','',51,'','','','','','','','','','','');
 
 /*!40000 ALTER TABLE `contacts` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -104,7 +108,7 @@ CREATE TABLE `directors` (
   KEY `active` (`active`),
   KEY `firstName` (`firstName`),
   KEY `lastName` (`lastName`)
-) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
 
 LOCK TABLES `directors` WRITE;
 /*!40000 ALTER TABLE `directors` DISABLE KEYS */;
@@ -132,22 +136,6 @@ VALUES
 UNLOCK TABLES;
 
 
-# Dump of table fileRecords
-# ------------------------------------------------------------
-
-DROP TABLE IF EXISTS `fileRecords`;
-
-CREATE TABLE `fileRecords` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `fileID` int(11) unsigned NOT NULL,
-  `forUserID` int(11) unsigned NOT NULL,
-  PRIMARY KEY (`id`),
-  KEY `fileID` (`fileID`),
-  KEY `forUserID` (`forUserID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
-
-
 # Dump of table files
 # ------------------------------------------------------------
 
@@ -155,28 +143,13 @@ DROP TABLE IF EXISTS `files`;
 
 CREATE TABLE `files` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `fileTypeID` tinyint(2) unsigned NOT NULL,
   `name` varchar(60) NOT NULL,
   `file` varchar(40) NOT NULL,
-  `addedByUserID` int(11) unsigned NOT NULL,
+  `forUserId` int(11) unsigned NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `fileTypeID_2` (`fileTypeID`),
-  KEY `fileTypeID` (`fileTypeID`),
-  KEY `addedByUserID` (`addedByUserID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
-
-
-# Dump of table fileTypes
-# ------------------------------------------------------------
-
-DROP TABLE IF EXISTS `fileTypes`;
-
-CREATE TABLE `fileTypes` (
-  `id` tinyint(2) unsigned NOT NULL AUTO_INCREMENT,
-  `type` varchar(20) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+  KEY `forUserId` (`forUserId`),
+  CONSTRAINT `files_ibfk_1` FOREIGN KEY (`forUserId`) REFERENCES `users` (`id`) ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 
@@ -186,11 +159,12 @@ CREATE TABLE `fileTypes` (
 DROP TABLE IF EXISTS `mediaCategories`;
 
 CREATE TABLE `mediaCategories` (
-  `id` smallint(1) unsigned NOT NULL AUTO_INCREMENT,
-  `navId` tinyint(1) unsigned NOT NULL,
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `navId` int(11) unsigned NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `navId` (`navId`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+  UNIQUE KEY `navId` (`navId`),
+  CONSTRAINT `mediacategories_ibfk_1` FOREIGN KEY (`navId`) REFERENCES `navigation` (`id`) ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
 LOCK TABLES `mediaCategories` WRITE;
 /*!40000 ALTER TABLE `mediaCategories` DISABLE KEYS */;
@@ -214,7 +188,7 @@ DROP TABLE IF EXISTS `mediaFeeds`;
 
 CREATE TABLE `mediaFeeds` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `mediaCategoryID` smallint(3) unsigned NOT NULL,
+  `mediaCategoryID` int(11) unsigned NOT NULL,
   `categoryPosition` tinyint(2) unsigned NOT NULL,
   `directorID` int(11) unsigned NOT NULL DEFAULT '0',
   `feedURL` varchar(2083) NOT NULL,
@@ -222,8 +196,10 @@ CREATE TABLE `mediaFeeds` (
   `lastUpdated` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`id`),
   KEY `mediaCategoryID` (`mediaCategoryID`),
-  KEY `directorID` (`directorID`)
-) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=utf8;
+  KEY `directorID` (`directorID`),
+  CONSTRAINT `mediafeeds_ibfk_1` FOREIGN KEY (`directorID`) REFERENCES `directors` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `mediafeeds_ibfk_2` FOREIGN KEY (`mediaCategoryID`) REFERENCES `mediacategories` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8;
 
 LOCK TABLES `mediaFeeds` WRITE;
 /*!40000 ALTER TABLE `mediaFeeds` DISABLE KEYS */;
@@ -244,9 +220,9 @@ VALUES
 	(13,5,2,11,'http://www.wdcdn.net/rss/presentation/library/client/grandlarge/id/2838ddc0a0a766181709e98d178b0267/','2011-01-03 23:55:30','0000-00-00 00:00:00'),
 	(14,5,3,12,'http://www.wdcdn.net/rss/presentation/library/client/grandlarge/id/e99ac277129794a1147304223b99d247/','2011-01-03 23:55:37','0000-00-00 00:00:00'),
 	(15,6,1,15,'http://www.wdcdn.net/rss/presentation/library/client/glx/id/24bb3af337e74439e9a085014a745b77/','2011-01-10 22:08:55','0000-00-00 00:00:00'),
+	(20,6,3,16,'http://www.wdcdn.net/rss/presentation/library/client/glx/id/319800429084791d370a9733e4861d9a/','2011-02-05 15:51:16','0000-00-00 00:00:00'),
 	(21,3,3,17,'http://www.wdcdn.net/rss/presentation/library/client/grandlarge/id/764f64738132ac5166b772ffe733d4b9/','2011-02-05 15:55:15','0000-00-00 00:00:00'),
-	(20,6,4,16,'http://www.wdcdn.net/rss/presentation/library/client/glx/id/319800429084791d370a9733e4861d9a/','2011-02-05 15:51:16','0000-00-00 00:00:00'),
-	(22,6,3,18,'http://www.wdcdn.net/rss/presentation/library/client/glx/id/a9e971d1fd2f5d6ee38575437e8024a4/','2011-03-06 16:56:28','0000-00-00 00:00:00');
+	(22,6,2,18,'http://www.wdcdn.net/rss/presentation/library/client/glx/id/a9e971d1fd2f5d6ee38575437e8024a4/','2011-03-06 16:56:28','0000-00-00 00:00:00');
 
 /*!40000 ALTER TABLE `mediaFeeds` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -261,7 +237,7 @@ CREATE TABLE `navigation` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
 LOCK TABLES `navigation` WRITE;
 /*!40000 ALTER TABLE `navigation` DISABLE KEYS */;
@@ -293,31 +269,29 @@ CREATE TABLE `news` (
   `desc` text NOT NULL,
   `url` varchar(2083) NOT NULL,
   `timeAdded` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `addedByUserID` int(11) unsigned NOT NULL,
   PRIMARY KEY (`id`),
-  KEY `timeAdded` (`timeAdded`),
-  KEY `addedByUserID` (`addedByUserID`)
+  KEY `timeAdded` (`timeAdded`)
 ) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 
 LOCK TABLES `news` WRITE;
 /*!40000 ALTER TABLE `news` DISABLE KEYS */;
-INSERT INTO `news` (`id`,`title`,`image`,`desc`,`url`,`timeAdded`,`addedByUserID`)
+INSERT INTO `news` (`id`,`title`,`image`,`desc`,`url`,`timeAdded`)
 VALUES
-	(1,'BUF','buf.jpg','BUF','http://www.buf.com','2011-01-10 13:01:09',1),
-	(2,'Walkabout Films','walkabout.jpg','Walkabout Films','http://www.walkaboutfilms.comau.com','2011-01-10 12:02:15',1),
-	(5,'Mac Guff','mac_guff.jpg','Mac Guff','http://www.macguff.com','2011-01-10 11:02:44',1),
-	(4,'Animal Logic','animal_logic.jpg','Animal Logic','http://www.animallogic.com','2011-01-10 10:03:41',1),
-	(3,'Robbers Dog','robbers_dog.jpg','Robbers Dog','http://www.robbersdog.co.nz','2011-01-10 09:03:44',1),
-	(7,'Tom Kan Design','tom_kan.jpg','Tom Kan Design','http://www.tomkandesign.com','2011-01-10 08:05:00',1),
-	(6,'Francesco Carrozzini','francesco_carrozzini.jpg','Francesco Carrozzini','http://www.francescocarrozzini.com','2011-01-10 07:06:03',1),
-	(8,'Rockwood Music Hall','rockwood_music_hall.jpg','Rockwood Music Hall','http://www.rockwoodmusichall.com','2011-01-10 06:50:32',1),
-	(9,'Cosmic','cosmic.jpg','Cosmic','http://www.cosmicparis.com/#/bruno_delbonnel','2011-01-10 06:40:04',1),
-	(10,'Piffeteau','piffeteau.jpg','Piffeteau','http://www.piffeteau.com','2011-01-10 06:30:33',1),
-	(11,'Kinou','kinou.jpg','Kinou','http://www.kinou.fr','2011-01-10 06:25:53',1),
-	(12,'Nicolas Loir','nicolas_loir.jpg','Nicolas Loir','http://www.nicolasloir.com','2011-01-10 06:20:21',1),
-	(13,'World Locations','world_locations.jpg','World Locations','http://www.worldlocations.com','2011-01-10 06:15:43',1),
-	(14,'G2 Works','g2_works.jpg','G2 Works','http://www.g2works.com','2011-01-10 06:10:44',1),
-	(15,'Franck Tymezuk','francky_tymezuk.jpg','Franck Tymezuk','http://www.francktymezuk.com','2011-01-10 06:06:06',1);
+	(1,'BUF','buf.jpg','BUF','http://www.buf.com','2011-01-10 13:01:09'),
+	(2,'Walkabout Films','walkabout.jpg','Walkabout Films','http://www.walkaboutfilms.comau.com','2011-01-10 12:02:15'),
+	(5,'Mac Guff','mac_guff.jpg','Mac Guff','http://www.macguff.com','2011-01-10 11:02:44'),
+	(4,'Animal Logic','animal_logic.jpg','Animal Logic','http://www.animallogic.com','2011-01-10 10:03:41'),
+	(3,'Robbers Dog','robbers_dog.jpg','Robbers Dog','http://www.robbersdog.co.nz','2011-01-10 09:03:44'),
+	(7,'Tom Kan Design','tom_kan.jpg','Tom Kan Design','http://www.tomkandesign.com','2011-01-10 08:05:00'),
+	(6,'Francesco Carrozzini','francesco_carrozzini.jpg','Francesco Carrozzini','http://www.francescocarrozzini.com','2011-01-10 07:06:03'),
+	(8,'Rockwood Music Hall','rockwood_music_hall.jpg','Rockwood Music Hall','http://www.rockwoodmusichall.com','2011-01-10 06:50:32'),
+	(9,'Cosmic','cosmic.jpg','Cosmic','http://www.cosmicparis.com/#/bruno_delbonnel','2011-01-10 06:40:04'),
+	(10,'Piffeteau','piffeteau.jpg','Piffeteau','http://www.piffeteau.com','2011-01-10 06:30:33'),
+	(11,'Kinou','kinou.jpg','Kinou','http://www.kinou.fr','2011-01-10 06:25:53'),
+	(12,'Nicolas Loir','nicolas_loir.jpg','Nicolas Loir','http://www.nicolasloir.com','2011-01-10 06:20:21'),
+	(13,'World Locations','world_locations.jpg','World Locations','http://www.worldlocations.com','2011-01-10 06:15:43'),
+	(14,'G2 Works','g2_works.jpg','G2 Works','http://www.g2works.com','2011-01-10 06:10:44'),
+	(15,'Franck Tymezuk','francky_tymezuk.jpg','Franck Tymezuk','http://www.francktymezuk.com','2011-01-10 06:06:06');
 
 /*!40000 ALTER TABLE `news` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -331,8 +305,9 @@ DROP TABLE IF EXISTS `officeCategories`;
 CREATE TABLE `officeCategories` (
   `id` smallint(3) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(40) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `name` (`name`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 LOCK TABLES `officeCategories` WRITE;
 /*!40000 ALTER TABLE `officeCategories` DISABLE KEYS */;
@@ -354,7 +329,7 @@ CREATE TABLE `states` (
   `id` tinyint(2) unsigned NOT NULL AUTO_INCREMENT,
   `abbreviation` char(2) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=54 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=54 DEFAULT CHARSET=utf8;
 
 LOCK TABLES `states` WRITE;
 /*!40000 ALTER TABLE `states` DISABLE KEYS */;
@@ -425,23 +400,21 @@ DROP TABLE IF EXISTS `users`;
 
 CREATE TABLE `users` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `userTypeID` tinyint(2) unsigned NOT NULL,
-  `firstName` varchar(40) NOT NULL,
-  `lastName` varchar(40) NOT NULL,
+  `userTypeId` tinyint(2) unsigned NOT NULL,
   `email` varchar(255) NOT NULL,
-  `key` varchar(16) NOT NULL,
+  `key` varchar(40) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `email` (`email`),
-  KEY `userTypeID` (`userTypeID`),
-  KEY `lastName` (`lastName`),
-  KEY `firstName` (`firstName`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+  KEY `key` (`key`),
+  KEY `userTypeId` (`userTypeId`),
+  CONSTRAINT `users_ibfk_1` FOREIGN KEY (`userTypeId`) REFERENCES `usertypes` (`id`) ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` (`id`,`userTypeID`,`firstName`,`lastName`,`email`,`key`)
+INSERT INTO `users` (`id`,`userTypeId`,`email`,`key`)
 VALUES
-	(1,3,'Shammel','Lee','sidekick2rida@gmail.com','letmein');
+	(1,3,'sidekick2rida@gmail.com','letmein');
 
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -458,15 +431,15 @@ CREATE TABLE `userTypes` (
   `accessLevel` tinyint(2) unsigned NOT NULL,
   PRIMARY KEY (`id`),
   KEY `accessLevel` (`accessLevel`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 LOCK TABLES `userTypes` WRITE;
 /*!40000 ALTER TABLE `userTypes` DISABLE KEYS */;
 INSERT INTO `userTypes` (`id`,`name`,`accessLevel`)
 VALUES
-	(1,'client',0),
-	(2,'admin',0),
-	(3,'architect',0);
+	(1,'client',1),
+	(2,'admin',2),
+	(3,'architect',3);
 
 /*!40000 ALTER TABLE `userTypes` ENABLE KEYS */;
 UNLOCK TABLES;

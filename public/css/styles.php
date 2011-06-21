@@ -73,9 +73,9 @@ CONTENT
 .newsShell2{background:<?=$colors['GL_BLUE']?>;float:left;margin:0 0 5px 0;}
 .newsShell1>p,.newsShell2>p{font-size:12px;margin:0;padding:8px;}
 div.contactSetFirst{float:left;}
-div.contactSet{margin-top:36px;float:left;}
+div.contactSet{margin-top:22px;float:left;}
 div.contactSetFirst,div.contactSet{width:100%;}
-div.contactSet ul,div.contactSetFirst ul{width:236px;margin-right:10px;float:left;}
+div.contactSet ul,div.contactSetFirst ul{width:230px;margin:0 10px 14px 0;float:left;}
 div.contactSet li,div.contactSetFirst li{line-height:18px;}
 h3.contactCategory{color:<?=$colors['GL_BLUE']?>;margin:0 0 10px;}
 .contactHighlight{color:<?=$colors['GL_BLUE']?>;}
